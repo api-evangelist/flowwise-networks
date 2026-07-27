@@ -1,23 +1,64 @@
 aid: flowwise-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flowwise-networks.png
 name: FlowWise Networks
-description: FlowWise Networks is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: FlowWise Networks was a computer-networking hardware company founded in 1996 and headquartered
+  in San Jose, California, that built layer 2, 3, and 4 wire-speed, self-configuring router-acceleration
+  products designed to boost enterprise network performance with minimal disruption of service. Backed
+  by Alta Partners, Battery Ventures, InveStar Capital, Mitsubishi Electric, and TL Ventures (roughly
+  $21M-$27.5M raised), the company was acquired by Network Equipment Technologies (N.E.T.) in January
+  2000. It is long defunct and operates no public API, developer portal, or SDKs; this record is retained
+  for VC portfolio-graph provenance only and is not an enrichable API provider.
 url: https://raw.githubusercontent.com/api-evangelist/flowwise-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+- alta-partners
+- investar-capital
+- mitsubishi-electric
+- tl-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founded: '1996'
+x-headquarters: San Jose, CA, USA
+x-acquired-by: Network Equipment Technologies (N.E.T.)
+x-acquired-date: '2000-01-12'
+x-has-api: false
+x-enrichment-note: 'Verified 2026-07-19 via web research (PitchBook/CB Insights/Crunchbase/LinkedIn):
+  1990s router-acceleration hardware vendor, acquired by N.E.T. in 2000. No public developer surface
+  exists to enrich (no docs host, OpenAPI, packages, MCP, or well-known endpoints). Skip in future
+  enrichment runs.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Networking
+- Networking Hardware
+- Router Acceleration
+- Enterprise Networking
+- Defunct
+- Battery Ventures Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
