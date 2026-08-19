@@ -40,7 +40,7 @@ x-enrichment-note: 'Verified 2026-07-19 via web research (PitchBook/CB Insights/
   1990s router-acceleration hardware vendor, acquired by N.E.T. in 2000. No public developer surface
   exists to enrich (no docs host, OpenAPI, packages, MCP, or well-known endpoints). Skip in future
   enrichment runs.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
